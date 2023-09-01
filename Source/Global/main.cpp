@@ -32,7 +32,7 @@ static const char *_usage =
 	"  --checkpoint=NUM  Start at checkpoint NUM\n"
 ;
 
-static bool _fullscreen = false;
+static bool _fullscreen = true;
 static bool _widescreen = false;
 
 static const bool _runBenchmark = false;

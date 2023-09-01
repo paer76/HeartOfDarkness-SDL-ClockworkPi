@@ -41,6 +41,6 @@ static void scale_nearest(int factor, uint32_t *dst, int dstPitch, const uint32_
 
 const Scaler scaler_nearest = {
 	"nearest",
-	2, 3,
+	1, 1,
 	scale_nearest
 };

@@ -788,13 +788,13 @@ void System_SDL2::setupDefaultKeyMappings() {
 
 	addKeyMapping(SDL_SCANCODE_RETURN,   SYS_INP_JUMP);
 	addKeyMapping(SDL_SCANCODE_LCTRL,    SYS_INP_RUN);
-	addKeyMapping(SDL_SCANCODE_F,        SYS_INP_RUN);
+	addKeyMapping(SDL_SCANCODE_U,        SYS_INP_RUN);
 	addKeyMapping(SDL_SCANCODE_LALT,     SYS_INP_JUMP);
-	addKeyMapping(SDL_SCANCODE_G,        SYS_INP_JUMP);
+	addKeyMapping(SDL_SCANCODE_J,        SYS_INP_JUMP);
 	addKeyMapping(SDL_SCANCODE_LSHIFT,   SYS_INP_SHOOT);
-	addKeyMapping(SDL_SCANCODE_H,        SYS_INP_SHOOT);
-	addKeyMapping(SDL_SCANCODE_D,        SYS_INP_SHOOT | SYS_INP_RUN);
-	addKeyMapping(SDL_SCANCODE_SPACE,    SYS_INP_SHOOT | SYS_INP_RUN);
+	addKeyMapping(SDL_SCANCODE_K,        SYS_INP_SHOOT);
+	addKeyMapping(SDL_SCANCODE_I,        SYS_INP_SHOOT | SYS_INP_RUN);
+	addKeyMapping(SDL_SCANCODE_SPACE,    SYS_INP_ESC);
 	addKeyMapping(SDL_SCANCODE_ESCAPE,   SYS_INP_ESC);
 }
 
